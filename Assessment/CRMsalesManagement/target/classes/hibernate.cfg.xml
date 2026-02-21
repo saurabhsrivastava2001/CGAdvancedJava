@@ -1,0 +1,40 @@
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+<hibernate-configuration>
+ <session-factory>
+ 
+   <!-- JDBC -->
+   <property name="hibernate.connection.driver_class">
+     com.mysql.cj.jdbc.Driver
+   </property>
+
+ 	<!-- database name and the url-->
+   <property name="hibernate.connection.url">
+     jdbc:mysql://localhost:3306/customerCRM
+   </property>
+
+   <property name="hibernate.connection.username">root</property>
+   <property name="hibernate.connection.password">Mahadev12@a</property>
+
+ 
+
+   <property name="hibernate.hbm2ddl.auto">update</property>
+   <property name="hibernate.show_sql">true </property>
+  
+   
+
+   <!-- Entity -->
+   <mapping class="com.crm.entities.Address"/>
+   <mapping class="com.crm.entities.Customer"/>
+   <mapping class="com.crm.entities.Lead"/>
+   <mapping class="com.crm.entities.Order"/>
+   <mapping class="com.crm.entities.Product"/>
+   <mapping class="com.crm.entities.SalesEmployee"/>
+   <mapping class="com.crm.entities.SupportTicket"/>
+
+ </session-factory>
+
+</hibernate-configuration>
