@@ -4,6 +4,8 @@ This repository contains my **Capgemini Advanced Java training practice projects
 The projects focus on **Spring, REST APIs, and Java-based application development** used in enterprise applications.
 
 ---
+**All the other learnings of spring boot:**  
+[SpringBootAllWorks](https://github.com/saurabhsrivastava2001/SpringBootAllWorks)
 
 # 📂 Projects Included
 
