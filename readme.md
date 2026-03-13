@@ -5,7 +5,10 @@ The projects focus on **Spring, REST APIs, and Java-based application developmen
 
 ---
 **All the other learnings of spring boot:**  
-[SpringBootAllWorks](https://github.com/saurabhsrivastava2001/SpringBootAllWorks)
+[SpringBootAllWorks](https://github.com/saurabhsrivastava2001/SpringBootAllWorks)\
+
+**All the core java ,JUnit, hibenate and basics of adv java:**  
+[core java](https://github.com/saurabhsrivastava2001/all-core-java-and-some-advanced-java)
 
 # 📂 Projects Included
 
